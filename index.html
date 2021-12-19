@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Blog for Geekster</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="blog.css" />
+    <style>
+.footerSection{
+    background: #000000;
+}
+.footer-row{
+    display:flex;
+    align-items: center;
+    flex-direction:row;
+}
+.footer-div-1, .footer-div-2, .footer-div-3{
+    flex-basis: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:0 7em;
+}
+.footer-container{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:center;
+}
+.footer-content{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+.footer-content  h3{
+     color:#ffffff;
+}
+.footer-container p{
+     color:#ffffff;
+}
+        body {
+    background-color:aquamarine;
+    margin: 0px;
+}
+h2 {
+    font-family: 'Roboto', sans-serif;
+}
+h2, h4 {
+    margin: 0px;
+}
+.header, .card {
+    background-color: lightcoral;
+}
+.header {
+    position: sticky;
+    top: 0px;
+}
+.container {
+    display: flex;
+}
+.leftcontent {
+    padding: 5px;
+    width: calc(70% - 10px);
+    float: left;
+}
+.rightcontent {
+    padding: 5px;
+    width: calc(30% - 10px);
+    float: right;
+}
+.card {
+    margin: 5px 0px;
+    padding: 10px;
+}
+img {
+    width: 80%;
+    height: 80%;
+}
+.right-sticky {
+    position: sticky;
+    top: 40px;
+} 
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>MOHAMMAD ZAID Blog's</h1>
+    </div>
+    <div class="container">
+        <div class="leftcontent">
+            <div class="card">
+                <h4>COVID-19</h4>
+                <img src="https://images.pexels.com/photos/4031867/pexels-photo-4031867.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"/>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum adipisci cum sint deleniti eius vel exercitationem necessitatibus? Ratione, quisquam vero atque sit voluptates dolore numquam, earum ipsa minus repellat quibusdam beatae assumenda officiis ad eaque dicta? Deleniti, iusto? Modi libero velit mollitia beatae itaque illum illo molestias quis magnam fuga.</p>
+            </div>
+            <div class="card">
+                <h4>Computer</h4>
+                <img src="https://images.pexels.com/photos/1714208/pexels-photo-1714208.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"/>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi nobis corrupti repellat! Totam ex quaerat commodi eum dignissimos illum aliquam quam minus debitis, veritatis nemo, iste blanditiis in qui, excepturi quod voluptatem voluptatibus aliquid pariatur dolorum magni sapiente natus et sed. Non hic sequi, libero est delectus consequatur maiores enim porro quia, officiis ex laboriosam adipisci ab nihil eos asperiores?</p>
+            </div>
+        </div>
+        <div class="rightcontent">
+            <div class="card">
+                <h2>About me</h2>
+                <img src="https://images.pexels.com/photos/3952245/pexels-photo-3952245.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"/>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque sapiente ducimus maiores dolore rem deserunt?</p>
+            </div>
+            <div class="card right-sticky">
+                <h2>Sections</h2>
+                <ul>
+                    <li>Coding</li>
+                    <li>Shopping</li>
+                    <li>Travelling</li>
+                    <li>Health & Fitness</li>
+                    <li>Music & Lifestyle</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <footer class="footerSection " id="footerid">
+        <div class=" footer-container">
+            <div class="footer-row">
+                <div class=" footer-div-1">
+                    <div class="footer-content">
+                        <h3 class="mt-5">About This Page!!</h3>
+                        <p>A web page you can write your code like HTML , CSS , JAVA , JAVASCRIPT and many others programming code.</p>
+                    </div>
+                </div>
+                <div class=" footer-div-2">
+                    <div  class="footer-content">
+                        <h3 class="mt-5">NAVIGATION LINKS</h3>
+                        <li><a href="#topheader">HOME</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                        <li><a href="#">HELP</a></li>
+                    </div>
+                </div>
+                <div class=" footer-div-3">
+                    <div  class="footer-content">
+                        <h3 class="mt-5">CONTRIBUTOR</h3>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>All copyrights @ reserved by Zaid .</p>
+            </div>
+        </div>
+    </footer>
+    <script src="blog.js"></script>
+</body>
+</html>
